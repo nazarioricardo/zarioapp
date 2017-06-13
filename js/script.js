@@ -57,7 +57,7 @@ $(document).ready(function() {
                         $(navItem).html('<h3>Top</h3>')
                     })
                 } else {
-                    $("html body").animate({scrollTop: heightToScroll - 20}, "slow", 'swing', function() {
+                    $("html body").animate({scrollTop: heightToScroll - 60}, "slow", 'swing', function() {
                         $(navItem).html('<h3>Top</h3>')
                     })
                 }
