@@ -8,6 +8,7 @@ $(document).ready(function() {
         return $.trim($(this).text())
     }).get()
 
+
     // console.log(list)
 
     // $('#video').click(function() {
