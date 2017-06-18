@@ -1,0 +1,13 @@
+{
+  "name": "zario.github.io",
+  "homepage": "https://github.com/nazarioricardo/zarioapp",
+  "authors": [
+    "Ricardo Nazario <nazarioricardo@gmail.com>"
+  ],
+  "description": "zario product site",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "vimeo-player-js": "^2.1.0"
+  }
+}

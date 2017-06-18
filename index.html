@@ -3,7 +3,7 @@
     <head>
         <link href="css/layout.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400|Maven+Pro" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css?family=Overpass:200,300,400,600,700" rel="stylesheet">        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/script.js"></script>
     </head>
@@ -12,21 +12,15 @@
             
         </div>
 
-        <div id="video">
 
-            <div id="header">
+            <!--<div id="header">
                 <h1 class="hide" id="title">Zario</h1>
                 <h3 class="hide" id="sub-title">An expressive lead synth for iOS</h3>
                 <h4 class="hide" id="audio-toggle">click to listen</h4>
-            </div>
+            </div>-->
 
-            <div id="video-container">
-                <video id="video-background" autoplay loop id="video-background">
-                    <source src="zario-ad.mov" type="video/mp4">
-                </video>
-            </div>
-        </div>
-
+        <iframe id="video" src="https://player.vimeo.com/video/221200087?color=74ebfe&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>        
+        
         <div id="nav-container">
                 <ul id="nav">
                     <li id="pro-tips">
@@ -39,6 +33,9 @@
                         <h3>Support</h3>
                     </li>
                 </ul>
+                <div id="top">
+                    <h4>Back to Top</h4>
+                </div>
             </div>
 
         <div id="content">
@@ -54,7 +51,6 @@
             </div>
             <div class="content-section" id="support">
                 <h2>Support</h2>
-                <p id="email">Report any bugs (or just tell us anything you want!) at <b>zarioapp@gmail.com</b></p>
                 <h3>Known Issues</h3>
                     <ul id=issues"">
                         <li>
@@ -71,6 +67,10 @@
                         </li>
                     </ul>
             </div>
+        </div>
+        <div id="footer">
+            <h4>Contact</h4>
+            <h4>zarioapp@gmail.com</h4>
         </div>
     </body>
 </html>
