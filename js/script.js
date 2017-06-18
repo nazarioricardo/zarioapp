@@ -36,9 +36,12 @@ $(document).ready(function() {
             let currentList = $('#nav li').map(function () {
                 return $.trim($(this).text())
             }).get()
-            nav.css('position', 'relative')
             $('.content-section').css('padding-top', '20px')
+            nav.css('position', 'relative')
             $('#top').slideUp('slow')
+
+            
+
             navFixed = false
         }
 
