@@ -2,6 +2,16 @@ html, body {
     font-family: 'Overpass', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease-in-out
+}
+
+a:hover {
+    color: rgb(192, 245, 254)
+}
+
 #nav-container {
     background: linear-gradient(to left, rgb(114, 132, 131),rgb(74, 97, 95))
 }
